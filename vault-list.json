@@ -3,9 +3,9 @@
   "version": {
     "major": 1,
     "minor": 3,
-    "patch": 0
+    "patch": 1
   },
-  "timestamp": "2026-03-25T10:25:35Z",
+  "timestamp": "2026-03-26T12:52:00Z",
   "schema": "https://raw.githubusercontent.com/zkp2p/vault-list/main/schema/vault-list.schema.json",
   "vaults": [
     {
@@ -165,9 +165,9 @@
       "rateManagerAddress": "0xeEd7Db23e724aC4590D6dB6F78fDa6DB203535F3",
       "name": "PeerBOOST",
       "slug": "peerboost",
-      "description": "Automated USDC vault that manages rates at the sweet spot between returns and volume across 10 payment methods and 33 fiat currencies. Designed for patient LPs focused on maximizing long-term returns rather than chasing volume at any cost.",
+      "description": "Automated USDC vault that manages rates at the sweet spot between returns and volume across all 14 Peer payment methods and 34 fiat currencies. PeerBOOST continuously monitors FX rates, market conditions, and orderbook depth to adjust positioning in real time, drawing on 5+ years of experience managing positions in TradFi markets.",
       "strategyShort": "Patient, high-return rate management for long-term LPs",
-      "strategyLong": "PeerBOOST runs a patient rate strategy designed to optimize long-term LP returns rather than maximize fill volume at any cost. Rates are managed around the sweet spot where margins remain attractive while order flow stays healthy across supported payment methods and fiat routes. This approach is built for LPs who prefer consistent, disciplined positioning over aggressive short-term volume chasing.",
+      "strategyLong": "PeerBOOST runs a patient rate strategy designed to optimize long-term LP returns rather than maximize fill volume at any cost. Rates are managed around the sweet spot where margins remain attractive while order flow stays healthy across supported payment methods and fiat routes. The system continuously monitors live FX rates, market conditions, and orderbook depth to adjust positioning as conditions change. The strategy draws on more than five years of experience managing positions in TradFi markets and is built for LPs who prefer consistent, disciplined positioning over aggressive short-term volume chasing.",
       "manager": {
         "address": "0x29d57aBA72Fc54323eCcb853BC257A9c18538C4F",
         "name": "PeerBOOST",
@@ -176,6 +176,7 @@
       "fee": "0.10%",
       "maxFee": "2.0%",
       "paymentMethods": [
+        "alipay",
         "cashapp",
         "chime",
         "luxon",
@@ -185,12 +186,16 @@
         "paypal",
         "revolut",
         "venmo",
-        "wise"
+        "wise",
+        "zelle-bofa",
+        "zelle-chase",
+        "zelle-citi"
       ],
       "currencies": [
         "AED",
         "ARS",
         "AUD",
+        "BRL",
         "CAD",
         "CHF",
         "CNY",
