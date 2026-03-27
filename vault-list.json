@@ -166,8 +166,8 @@
       "name": "Monoh Vault",
       "slug": "monoh-vault",
       "description": "MONOH USDC liquidity vault. Secure, no-KYC payment gateway with automated rate management across Peer-supported fiat rails and currencies. Ensuring a more profitable journey",
-      "strategyShort": "Automated rate management across all Peer-supported payment methods and currencies",
-      "strategyLong": "## MONOH Vault Strategy\n\nMONOH Vault provides automated rate management for fiat-to-crypto conversions.\n\n**Supported rails:** Revolut, Wise, PayPal, Venmo, Cash App, Zelle, Mercado Pago, Monzo, N26, Alipay, Chime, Luxon\n**Supported currencies:** AED, ARS, AUD, CAD, CHF, CNY, CZK, DKK, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KES, MXN, MYR, NOK, NZD, PHP, PLN, RON, SAR, SEK, SGD, THB, TRY, UGX, USD, VND, ZAR\n\n### Rate Management\n- Rates are monitored and updated regularly to stay competitive\n- Conservative floor-based approach with manual rate overrides\n- Depositor floors are always respected (protocol enforced)\n\n### Risk\n- Non-custodial: depositor USDC stays in EscrowV2 at all times\n- Depositors can exit anytime without vault manager approval\n- Max fee capped at creation (immutable)",
+      "strategyShort": "Competitive AI-managed rate engine across 14 payment rails and 33 fiat currencies",
+      "strategyLong": "MONOH Vault uses a competitive rate engine that blends live FX pricing, competitor undercut logic, spread controls, and floor-aware risk limits. Rates update continuously across 14 payment platforms and 33 currencies based on market conditions, depositor floors, and liquidity positioning. All USDC remains in Peer on-chain escrow - the vault manages pricing only, never custody.",
       "manager": {
         "address": "0x405f40510A125F66Fae0C37FEd34c6266beE9913",
         "name": "Monoh"
