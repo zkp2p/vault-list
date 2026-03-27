@@ -2,10 +2,10 @@
   "name": "ZKP2P Vault List",
   "version": {
     "major": 1,
-    "minor": 2,
-    "patch": 1
+    "minor": 3,
+    "patch": 0
   },
-  "timestamp": "2026-03-24T12:00:00Z",
+  "timestamp": "2026-03-27T04:50:03.805Z",
   "schema": "https://raw.githubusercontent.com/zkp2p/vault-list/main/schema/vault-list.schema.json",
   "vaults": [
     {
@@ -157,6 +157,84 @@
       "links": {
         "website": "https://jarvis.payhumans.ai",
         "twitter": "https://x.com/0xSachinK"
+      }
+    },
+    {
+      "rateManagerId": "0xd99ad8f04bc1118c176e77bfd8a53ac156edcabdff2cb329a209155c712800ec",
+      "chainId": 8453,
+      "rateManagerAddress": "0xeEd7Db23e724aC4590D6dB6F78fDa6DB203535F3",
+      "name": "Monoh Vault",
+      "slug": "monoh-vault",
+      "description": "MONOH USDC liquidity vault. Secure, no-KYC payment gateway with automated rate management across Peer-supported fiat rails and currencies. Ensuring a more profitable journey",
+      "strategyShort": "Automated rate management across all Peer-supported payment methods and currencies",
+      "strategyLong": "## MONOH Vault Strategy\n\nMONOH Vault provides automated rate management for fiat-to-crypto conversions.\n\n**Supported rails:** Revolut, Wise, PayPal, Venmo, Cash App, Zelle, Mercado Pago, Monzo, N26, Alipay, Chime, Luxon\n**Supported currencies:** AED, ARS, AUD, CAD, CHF, CNY, CZK, DKK, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KES, MXN, MYR, NOK, NZD, PHP, PLN, RON, SAR, SEK, SGD, THB, TRY, UGX, USD, VND, ZAR\n\n### Rate Management\n- Rates are monitored and updated regularly to stay competitive\n- Conservative floor-based approach with manual rate overrides\n- Depositor floors are always respected (protocol enforced)\n\n### Risk\n- Non-custodial: depositor USDC stays in EscrowV2 at all times\n- Depositors can exit anytime without vault manager approval\n- Max fee capped at creation (immutable)",
+      "manager": {
+        "address": "0x405f40510A125F66Fae0C37FEd34c6266beE9913",
+        "name": "Monoh"
+      },
+      "fee": "0.095%",
+      "maxFee": "2.0%",
+      "paymentMethods": [
+        "revolut",
+        "wise",
+        "paypal",
+        "venmo",
+        "cashapp",
+        "zelle-chase",
+        "zelle-bofa",
+        "zelle-citi",
+        "mercadopago",
+        "monzo",
+        "n26",
+        "alipay",
+        "chime",
+        "luxon"
+      ],
+      "currencies": [
+        "AED",
+        "ARS",
+        "AUD",
+        "CAD",
+        "CHF",
+        "CNY",
+        "CZK",
+        "DKK",
+        "EUR",
+        "GBP",
+        "HKD",
+        "HUF",
+        "IDR",
+        "ILS",
+        "INR",
+        "JPY",
+        "KES",
+        "MXN",
+        "MYR",
+        "NOK",
+        "NZD",
+        "PHP",
+        "PLN",
+        "RON",
+        "SAR",
+        "SEK",
+        "SGD",
+        "THB",
+        "TRY",
+        "UGX",
+        "USD",
+        "VND",
+        "ZAR"
+      ],
+      "riskLevel": "low",
+      "tags": [
+        "automated",
+        "global",
+        "multi-rail",
+        "non-custodial",
+        "ai-managed"
+      ],
+      "links": {
+        "website": "https://monohv2.vercel.app"
       }
     }
   ]
