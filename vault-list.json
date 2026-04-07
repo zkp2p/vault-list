@@ -2,8 +2,8 @@
   "name": "ZKP2P Vault List",
   "version": {
     "major": 1,
-    "minor": 3,
-    "patch": 2
+    "minor": 4,
+    "patch": 0
   },
   "timestamp": "2026-04-03T00:00:00Z",
   "schema": "https://raw.githubusercontent.com/zkp2p/vault-list/main/schema/vault-list.schema.json",
@@ -240,7 +240,7 @@
       "rateManagerAddress": "0xeEd7Db23e724aC4590D6dB6F78fDa6DB203535F3",
       "name": "Monoh Vault",
       "slug": "monoh-vault",
-      "description": "MONOH USDC liquidity vault. Secure, no-KYC payment gateway with automated rate management across Peer-supported fiat rails and currencies. Ensuring a more profitable journey",
+      "description": "MONOH USDC liquidity vault. Secure, no-KYC payment gateway with automated rate management across Peer-supported fiat rails and currencies. Rates are determined by a competitive AI engine using live FX data, spread controls, and floor-aware risk limits, updated continuously.",
       "strategyShort": "Competitive AI-managed rate engine across 14 payment rails and 33 fiat currencies",
       "strategyLong": "MONOH Vault uses a competitive rate engine that blends live FX pricing, competitor undercut logic, spread controls, and floor-aware risk limits. Rates update continuously across 14 payment platforms and 33 currencies based on market conditions, depositor floors, and liquidity positioning. All USDC remains in Peer on-chain escrow - the vault manages pricing only, never custody.",
       "manager": {
