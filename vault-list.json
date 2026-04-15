@@ -3,9 +3,9 @@
   "version": {
     "major": 1,
     "minor": 4,
-    "patch": 0
+    "patch": 1
   },
-  "timestamp": "2026-04-03T00:00:00Z",
+  "timestamp": "2026-04-15T18:54:53Z",
   "schema": "https://raw.githubusercontent.com/zkp2p/vault-list/main/schema/vault-list.schema.json",
   "vaults": [
     {
@@ -16,7 +16,7 @@
       "slug": "delegate-by-usdctofiat",
       "description": "Fully automated USDC vault running 24/7 across 34 currencies and 14 payment methods. Rates adapt to real-time market conditions and stay competitive without any manual intervention. Non-custodial, 0.10% fee.",
       "strategyShort": "AI-powered rate engine across 34 currencies and 14 payment methods",
-      "strategyLong": "Delegate handles rate management so depositors don't have to. Once you delegate, the bot monitors market conditions and adjusts your rates automatically.\n\nRates are recalculated continuously using live FX data and on-chain spread analysis. The bot targets optimal positioning — competitive enough to attract fills, wide enough to protect your margin. If market conditions shift or competitors adjust, your rates respond automatically.\n\nYour USDC never leaves your deposit. Delegation only grants rate-setting permission — withdrawals, currency changes, and deposit management stay fully in your control. The vault cannot move, spend, or access your funds.",
+      "strategyLong": "Delegate handles rate management so depositors don't have to. Once you delegate, the bot monitors market conditions and adjusts your rates automatically.\n\nRates are recalculated continuously using live FX data and on-chain spread analysis. The bot targets optimal positioning \u00e2\u20ac\u201d competitive enough to attract fills, wide enough to protect your margin. If market conditions shift or competitors adjust, your rates respond automatically.\n\nYour USDC never leaves your deposit. Delegation only grants rate-setting permission \u00e2\u20ac\u201d withdrawals, currency changes, and deposit management stay fully in your control. The vault cannot move, spend, or access your funds.",
       "manager": {
         "address": "0xC141Cbe4f4a9CAbc3cc78159a9268a4e008922CD",
         "name": "USDCtoFiat",
@@ -77,7 +77,12 @@
         "ZAR"
       ],
       "riskLevel": "low",
-      "tags": ["automated", "ai-managed", "non-custodial", "delegate"],
+      "tags": [
+        "automated",
+        "ai-managed",
+        "non-custodial",
+        "delegate"
+      ],
       "links": {
         "website": "https://delegate.usdctofiat.xyz",
         "docs": "https://delegate.usdctofiat.xyz/#learn",
@@ -91,9 +96,9 @@
       "rateManagerAddress": "0xeEd7Db23e724aC4590D6dB6F78fDa6DB203535F3",
       "name": "J.A.R.V.I.S Fund",
       "slug": "jarvis-fund",
-      "description": "AI-managed USDC vault running autonomous rate strategies 24/7 across 14 payment platforms and 33 currencies. Non-custodial — deposits stay in Peer escrow at all times.",
+      "description": "AI-managed USDC vault running autonomous rate strategies 24/7 across 14 payment platforms and 33 currencies. Non-custodial \u00e2\u20ac\u201d deposits stay in Peer escrow at all times.",
       "strategyShort": "Autonomous AI rate management across all supported payment platforms and currencies",
-      "strategyLong": "The J.A.R.V.I.S Fund uses a multi-strategy rate engine combining competitive analysis, time-weighted adjustments, volume-based positioning, and fill-rate feedback loops. Rates update continuously across 14 payment platforms and 33 currencies based on market conditions, timezone overlaps, and orderbook depth. All USDC remains in Peer on-chain escrow — the vault only manages rates, never custody.",
+      "strategyLong": "The J.A.R.V.I.S Fund uses a multi-strategy rate engine combining competitive analysis, time-weighted adjustments, volume-based positioning, and fill-rate feedback loops. Rates update continuously across 14 payment platforms and 33 currencies based on market conditions, timezone overlaps, and orderbook depth. All USDC remains in Peer on-chain escrow \u00e2\u20ac\u201d the vault only manages rates, never custody.",
       "manager": {
         "address": "0xA9FdcE9d4583850a46532341e47024B9880F7005",
         "name": "J.A.R.V.I.S",
@@ -153,7 +158,11 @@
         "ZAR"
       ],
       "riskLevel": "low",
-      "tags": ["automated", "ai-managed", "non-custodial"],
+      "tags": [
+        "automated",
+        "ai-managed",
+        "non-custodial"
+      ],
       "links": {
         "website": "https://jarvis.payhumans.ai",
         "twitter": "https://x.com/0xSachinK"
@@ -228,7 +237,12 @@
         "ZAR"
       ],
       "riskLevel": "low",
-      "tags": ["automated", "long-term", "high-return", "non-custodial"],
+      "tags": [
+        "automated",
+        "long-term",
+        "high-return",
+        "non-custodial"
+      ],
       "links": {
         "docs": "https://peerlytics.xyz/explorer/address/0xe88a10f155fed40df3b778ed68b144ea5b255ca3",
         "twitter": "https://x.com/m38mah"
@@ -301,10 +315,63 @@
         "ZAR"
       ],
       "riskLevel": "low",
-      "tags": ["automated", "global", "multi-rail", "non-custodial", "ai-managed"],
+      "tags": [
+        "automated",
+        "global",
+        "multi-rail",
+        "non-custodial",
+        "ai-managed"
+      ],
       "links": {
         "website": "https://monohv2.vercel.app"
       }
+    },
+    {
+      "rateManagerId": "0x6574cccf10d0f5605f4c3076a008879fd19b112209fb48c09d8ea6db3daca5d6",
+      "chainId": 8453,
+      "rateManagerAddress": "0xeEd7Db23e724aC4590D6dB6F78fDa6DB203535F3",
+      "name": "SWAP.MY",
+      "slug": "swap-my",
+      "description": "Non-custodial USDC vault for the SWAP.MY crypto exchange. Rate management across popular US, EU, UK, and LatAm payment platforms. 0.10% fee, deposits stay in Peer escrow at all times.",
+      "strategyShort": "Rate management across 10 payment platforms and 6 currencies",
+      "strategyLong": "SWAP.MY operates a rate-management vault that delegated depositors can opt into when selling USDC for fiat. Rates are sourced from live FX feeds with a configurable spread, and the vault publishes manager floors across every supported (platform, currency) pair.\n\nSupported platforms include Venmo, Cash App, Zelle, PayPal, Revolut, Wise, Monzo, Chime, N26, and Mercado Pago. Supported fiat currencies include USD, EUR, GBP, BRL, ARS, and MXN.\n\nYour USDC never leaves the Peer escrow. Delegation only grants rate-setting permission - withdrawals, currency changes, and deposit management stay fully under depositor control. The vault cannot move, spend, or access delegated funds.",
+      "manager": {
+        "address": "0x5871d5dE3624A53AF83609DdF1a9b3Db66b8C984",
+        "name": "SWAP.MY",
+        "twitter": "swapmyexchange"
+      },
+      "fee": "0.10%",
+      "maxFee": "5.0%",
+      "paymentMethods": [
+        "venmo",
+        "cashapp",
+        "zelle",
+        "paypal",
+        "revolut",
+        "wise",
+        "monzo",
+        "chime",
+        "n26",
+        "mercadopago"
+      ],
+      "currencies": [
+        "USD",
+        "EUR",
+        "GBP",
+        "BRL",
+        "ARS",
+        "MXN"
+      ],
+      "riskLevel": "low",
+      "tags": [
+        "non-custodial",
+        "swap-my"
+      ],
+      "links": {
+        "website": "https://swap.my",
+        "twitter": "https://x.com/swapmyexchange"
+      },
+      "logoURI": "https://swap.my/logo5.svg"
     }
   ]
 }
