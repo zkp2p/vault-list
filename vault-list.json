@@ -2,10 +2,10 @@
   "name": "ZKP2P Vault List",
   "version": {
     "major": 1,
-    "minor": 6,
+    "minor": 7,
     "patch": 0
   },
-  "timestamp": "2026-04-23T16:00:00Z",
+  "timestamp": "2026-06-17T16:11:45Z",
   "schema": "https://raw.githubusercontent.com/zkp2p/vault-list/main/schema/vault-list.schema.json",
   "vaults": [
     {
@@ -441,6 +441,78 @@
         "non-custodial",
         "high-return"
       ]
+    },
+    {
+      "rateManagerId": "0x361d0c2971cbae922e5db0271ce4cd9f87fea4ff2df4563c9edf79307fc674f5",
+      "chainId": 8453,
+      "rateManagerAddress": "0xeEd7Db23e724aC4590D6dB6F78fDa6DB203535F3",
+      "name": "PeerEARN",
+      "slug": "peerearn",
+      "description": "The official vault for PeerEARN. Supports all Peer payment methods and currencies, and is fully non-custodial: deposits stay in Peer on-chain escrow at all times.",
+      "strategyShort": "The official vault for PeerEARN",
+      "manager": {
+        "address": "0x84e113087C97Cd80eA9D78983D4B8Ff61ECa1929",
+        "name": "PeerEARN"
+      },
+      "fee": "0.0%",
+      "maxFee": "5.0%",
+      "paymentMethods": [
+        "venmo",
+        "cashapp",
+        "chime",
+        "zelle-bofa",
+        "zelle-chase",
+        "zelle-citi",
+        "revolut",
+        "wise",
+        "paypal",
+        "monzo",
+        "n26",
+        "alipay",
+        "mercadopago",
+        "luxon"
+      ],
+      "currencies": [
+        "AED",
+        "ARS",
+        "AUD",
+        "CAD",
+        "CHF",
+        "CNY",
+        "CZK",
+        "DKK",
+        "EUR",
+        "GBP",
+        "HKD",
+        "HUF",
+        "IDR",
+        "ILS",
+        "INR",
+        "JPY",
+        "KES",
+        "MXN",
+        "MYR",
+        "NOK",
+        "NZD",
+        "PHP",
+        "PLN",
+        "RON",
+        "SAR",
+        "SEK",
+        "SGD",
+        "THB",
+        "TRY",
+        "UGX",
+        "USD",
+        "VND",
+        "ZAR"
+      ],
+      "riskLevel": "low",
+      "tags": [
+        "peerearn",
+        "official",
+        "non-custodial"
+      ]
     }
   ]
-} 
+}
