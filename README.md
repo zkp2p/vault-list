@@ -8,6 +8,10 @@ Curated metadata registry for ZKP2P vaults. Similar to [Uniswap Token Lists](htt
 
 A vault in ZKP2P is a [RateManagerV1](https://github.com/zkp2p/zkp2p-v2-contracts) instance — a delegated rate manager that sets exchange rates and fees for USDC deposits on the protocol. Depositors opt into a vault, and the vault manager handles rate management on their behalf.
 
+## Listing policy
+
+Vaults must either update at least one rate every 30 days or have processed volume. A vault will be removed from the list only if its latest rate update is more than 30 days old and it has processed no volume.
+
 ## Schema
 
 Each vault entry contains:
